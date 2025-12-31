@@ -1,0 +1,18 @@
+{
+  "name": "infinity-cms",
+  "version": "1.0.0",
+  "description": "Infinity CMS - نظام إدارة محتوى مرن وقابل للتخصيص بالكامل",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx http-server . -p 8080 -o",
+    "dev": "npx http-server . -p 8080 -o"
+  },
+  "keywords": [
+    "cms",
+    "infinity",
+    "arabic",
+    "content-management"
+  ],
+  "author": "",
+  "license": "ISC"
+}
