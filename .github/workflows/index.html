@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Infinity CMS - تحكم بلا حدود</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;700;900&display=swap" rel="stylesheet">
+<style>
+body {
+font-family: 'Cairo', sans-serif;
+scroll-behavior: smooth;
+}
+.glass-effect {
+background: rgba(255, 255, 255, 0.05);
+backdrop-filter: blur(10px);
+border: 1px solid rgba(255, 255, 255, 0.1);
+}
+.hero-gradient {
+background: radial-gradient(circle at top right, #1e293b 0%, #0f172a 100%);
+}
+.accent-gradient {
+background: linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%);
+}
+.card-hover:hover {
+transform: translateY(-10px);
+transition: all 0.3s ease;
+}
+</style>
+</head>
+<body class="bg-slate-900 text-white overflow-x-hidden">
+
+<!-- Header / Navigation -->
+<nav class="fixed w-full z-50 glass-effect py-4 px-6">
+<div class="max-w-7xl mx-auto flex justify-between items-center">
+<div class="text-2xl font-black accent-gradient bg-clip-text text-transparent">INFINITY CMS</div>
+<div class="hidden md:flex space-x-reverse space-x-8 text-sm font-medium">
+<a href="#features" class="hover:text-blue-400 transition">المميزات</a>
+<a href="#customization" class="hover:text-blue-400 transition">التخصيص</a>
+<a href="#demo" class="hover:text-blue-400 transition">تجربة حية</a>
+</div>
+<button class="accent-gradient px-6 py-2 rounded-full font-bold text-sm hover:opacity-90 transition">احصل عليه الآن</button>
+</div>
+</nav>
+
+<!-- Hero Section -->
+<section class="relative min-h-screen flex items-center pt-20 hero-gradient">
+<div class="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
+<div class="text-right space-y-6">
+<h1 class="text-5xl md:text-7xl font-black leading-tight">
+موقعك، <span class="text-blue-500">هويتك،</span> <br>بلمسة واحدة.
+</h1>
+<p class="text-lg text-slate-400 max-w-lg leading-relaxed">
+وداعاً للنماذج الجامدة. مع نظامنا المتطور، يمكنك تعديل كل زر، كل لون، وكل واجهة لتتناسب مع رؤيتك الخاصة وبصمتك التجارية الفريدة.
+</p>
+<div class="flex flex-wrap gap-4 pt-4">
+<button class="accent-gradient px-8 py-4 rounded-xl font-bold text-lg shadow-lg shadow-blue-500/20">ابدأ رحلتك الإبداعية</button>
+<button class="border border-slate-700 px-8 py-4 rounded-xl font-bold text-lg hover:bg-slate-800 transition">شاهد فيديو توضيحي</button>
+</div>
+</div>
+<div class="relative">
+<div class="absolute -inset-4 bg-blue-500/20 blur-3xl rounded-full"></div>
+<div class="relative glass-effect p-2 rounded-3xl shadow-2xl overflow-hidden border border-white/10">
+<img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=1000" alt="لوحة التحكم" class="rounded-2xl">
+<div class="absolute bottom-6 right-6 left-6 p-4 glass-effect rounded-xl flex items-center justify-between">
+<div class="flex items-center space-x-reverse space-x-3">
+<div class="w-10 h-10 rounded-full accent-gradient flex items-center justify-center">🎨</div>
+<div>
+<div class="text-xs text-slate-400">نمط التصميم الحالي</div>
+<div class="text-sm font-bold">بصمة بصرية احترافية</div>
+</div>
+</div>
+<div class="text-blue-400 font-bold text-sm">نشط الآن</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<!-- Features Grid -->
+<section id="features" class="py-24 bg-slate-900">
+<div class="max-w-7xl mx-auto px-6">
+<div class="text-center mb-16">
+<h2 class="text-4xl font-bold mb-4">لماذا تختار INFINITY CMS؟</h2>
+<p class="text-slate-400">نحن نقدم لك الأدوات، وأنت تضع الإبداع.</p>
+</div>
+<div class="grid md:grid-cols-3 gap-8">
+<!-- Card 1 -->
+<div class="p-8 rounded-3xl glass-effect card-hover border border-white/5">
+<div class="w-14 h-14 rounded-2xl bg-blue-500/20 flex items-center justify-center text-3xl mb-6">🛠️</div>
+<h3 class="text-xl font-bold mb-4">تحكم شامل بالعناصر</h3>
+<p class="text-slate-400 leading-relaxed">تغيير الأزرار، الحواف، الخطوط، والمسافات بمجرد النقر والسحب من لوحة التحكم.</p>
+</div>
+<!-- Card 2 -->
+<div class="p-8 rounded-3xl glass-effect card-hover border border-white/5">
+<div class="w-14 h-14 rounded-2xl bg-purple-500/20 flex items-center justify-center text-3xl mb-6">👁️</div>
+<h3 class="text-xl font-bold mb-4">هوية بصرية متكاملة</h3>
+<p class="text-slate-400 leading-relaxed">اربط شعارك وألوان علامتك التجارية بالنظام ليتم تطبيقها تلقائياً على كامل الموقع.</p>
+</div>
+<!-- Card 3 -->
+<div class="p-8 rounded-3xl glass-effect card-hover border border-white/5">
+<div class="w-14 h-14 rounded-2xl bg-emerald-500/20 flex items-center justify-center text-3xl mb-6">⚡</div>
+<h3 class="text-xl font-bold mb-4">أداء فائق السرعة</h3>
+<p class="text-slate-400 leading-relaxed">رغم القوة في التخصيص، يظل موقعك خفيفاً وسريعاً جداً في التحميل على كافة الأجهزة.</p>
+</div>
+</div>
+</div>
+</section>
+
+<!-- Customization Section -->
+<section id="customization" class="py-24 bg-slate-800/50">
+<div class="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-16 items-center">
+<div class="order-2 md:order-1 glass-effect p-8 rounded-3xl">
+<!-- Mock UI Control Panel -->
+<div class="space-y-6">
+<div class="flex justify-between items-center border-b border-white/10 pb-4">
+<span class="font-bold">محرر العناصر</span>
+<span class="text-xs text-slate-500 uppercase">Live Edit</span>
+</div>
+<div class="space-y-4">
+<label class="block text-sm text-slate-400">انحناء الأزرار (Border Radius)</label>
+<input type="range" class="w-full accent-blue-500">
+<div class="flex justify-between text-xs text-slate-500">
+<span>حادة</span>
+<span>دائرية</span>
+</div>
+</div>
+<div class="space-y-4 pt-4">
+<label class="block text-sm text-slate-400">لوحة الألوان الرئيسية</label>
+<div class="flex space-x-reverse space-x-2">
+<div class="w-10 h-10 rounded-full bg-blue-500 cursor-pointer border-2 border-white"></div>
+<div class="w-10 h-10 rounded-full bg-purple-500 cursor-pointer"></div>
+<div class="w-10 h-10 rounded-full bg-pink-500 cursor-pointer"></div>
+<div class="w-10 h-10 rounded-full bg-orange-500 cursor-pointer"></div>
+</div>
+</div>
+<div class="pt-6">
+<button class="w-full bg-blue-600 py-3 rounded-lg font-bold shadow-lg">حفظ التعديلات الحية</button>
+</div>
+</div>
+</div>
+<div class="order-1 md:order-2 space-y-6">
+<h2 class="text-4xl font-bold leading-tight">لوحة تحكم <span class="text-blue-500">بسيطة</span> لكنها <span class="text-purple-500">جبارة</span>.</h2>
+<p class="text-slate-400 text-lg leading-relaxed">
+لم نكتفِ بجعل الموقع قابلاً للتعديل، بل صممنا لوحة تحكم تمنحك شعور المصمم المحترف. يمكنك معاينة التغييرات مباشرة قبل نشرها للعالم.
+</p>
+<ul class="space-y-4">
+<li class="flex items-center space-x-reverse space-x-3 text-slate-300">
+<span class="text-blue-500">✔</span>
+<span>تعديل القوائم العلوية والسفلية بمرونة كاملة.</span>
+</li>
+<li class="flex items-center space-x-reverse space-x-3 text-slate-300">
+<span class="text-blue-500">✔</span>
+<span>إدارة الصور والوسائط مع محرر مدمج.</span>
+</li>
+<li class="flex items-center space-x-reverse space-x-3 text-slate-300">
+<span class="text-blue-500">✔</span>
+<span>دعم كامل للغتين العربية والإنجليزية بتبديل ذكي.</span>
+</li>
+</ul>
+</div>
+</div>
+</section>
+
+<!-- Call to Action -->
+<section class="py-24">
+<div class="max-w-5xl mx-auto px-6">
+<div class="accent-gradient p-12 rounded-[3rem] text-center shadow-2xl shadow-blue-500/20">
+<h2 class="text-4xl font-black mb-6">هل أنت مستعد لبناء بصمتك الرقمية؟</h2>
+<p class="text-xl mb-10 opacity-90 max-w-2xl mx-auto leading-relaxed">
+انضم إلى مئات الشركات التي اختارت التميز والحرية في التصميم. نظامنا متاح الآن للتجربة المجانية.
+</p>
+<div class="flex flex-col md:flex-row justify-center gap-4">
+<button class="bg-white text-slate-900 px-10 py-4 rounded-2xl font-black text-lg hover:scale-105 transition">ابدأ الآن - مجاناً</button>
+<button class="bg-black/20 text-white px-10 py-4 rounded-2xl font-bold text-lg hover:bg-black/30 transition">تحدث مع خبير</button>
+</div>
+</div>
+</div>
+</section>
+
+<!-- Footer -->
+<footer class="py-12 border-t border-white/10 text-center text-slate-500 text-sm">
+<p>&copy; 2024 جميع الحقوق محفوظة لـ Infinity CMS. صُنع بكل حب للمبدعين.</p>
+</footer>
+
+</body>
+</html>
