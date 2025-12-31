@@ -57,10 +57,11 @@ python -m SimpleHTTPServer 8080
 ## البنية
 
 ```
-smc/
+infinity-cms/
 ├── index.html          # الصفحة الرئيسية للموقع
 ├── package.json        # إعدادات المشروع وأوامر التشغيل
-└── README.md          # هذا الملف
+├── README.md          # هذا الملف
+└── .gitignore         # ملفات يتم تجاهلها من Git
 ```
 
 ## التقنيات المستخدمة
